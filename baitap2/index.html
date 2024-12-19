@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar và Header</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="vwn-vang-dat-1007-5523-5447.png" alt="Logo Vua Web Nhanh">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Trang chủ</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="search-icon">
+                <span>&#128269;</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Banner -->
+    <section class="header-banner">
+        <div class="content">
+            <div class="left-content">
+                <img src="h2-shape-2-3402.png" alt="Burger" class="banner-image">
+            </div>
+            <div class="right-content">
+                <h4>Giới thiệu về chúng tôi</h4>
+                <h1>NƠI THỰC PHẨM CHẤT LƯỢNG KẾT HỢP VỚI DỊCH VỤ TUYỆT VỜI.</h1>
+                <p>Hãy đắm mình vào hành trình ẩm thực với thực đơn giới thiệu sự kết hợp hương vị. Các đầu bếp của
+                    chúng tôi sử dụng những nguyên liệu tốt nhất để tạo ra những món ăn không chỉ là bữa ăn mà còn là
+                    trải nghiệm khó quên.</p>
+                <button class="call-to-action">Gọi món ngay</button>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Body: Slider Sản Phẩm -->
+    <section class="product-slider">
+        <h2 class="section-title">SẢN PHẨM MỚI</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Sản phẩm 1 -->
+                <div class="product-item">
+                    <img src="tomchien-1953.jpg" alt="Tôm tẩm bột chiên giòn">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Tôm tẩm bột chiên giòn</h3>
+                    <p class="price">150,000 đ</p>
+                </div>
+                <!-- Sản phẩm 2 -->
+                <div class="product-item">
+                    <img src="xt2dj6k-4939.jpg" alt="Tráng miệng 02">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Tráng miệng 02</h3>
+                    <p class="price">68,000 đ</p>
+                </div>
+                <!-- Sản phẩm 3 -->
+                <div class="product-item">
+                    <img src="sinh-to-chuoi-bolaven-scaled-4637.jpg" alt="Sinh tố chuối">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Sinh tố chuối</h3>
+                    <p class="price">80,000 đ</p>
+                </div>
+                <!-- Sản phẩm 4 -->
+                <div class="product-item">
+                    <img src="goicuon2-0552.jpg" alt="Bánh cuốn sắn">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Bánh cuốn sắn</h3>
+                    <p class="price">78,000 đ</p>
+                </div>
+                <!--Sản phẩm 5-->
+                <div class="product-item">
+                    <img src="goi3mau-4322.jpg" alt="Đậu hủ non chiên giòn">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Đậu hủ non chiên giòn</h3>
+                    <p class="price">75,000 đ</p>
+                </div>
+                <!-- Sản phẩm 1 -->
+                <div class="product-item">
+                    <img src="tomchien-1953.jpg" alt="Tôm tẩm bột chiên giòn">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Tôm tẩm bột chiên giòn</h3>
+                    <p class="price">150,000 đ</p>
+                </div>
+                <!-- Sản phẩm 2 -->
+                <div class="product-item">
+                    <img src="xt2dj6k-4939.jpg" alt="Tráng miệng 02">
+                    <div class="rating-star">
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <h3>Tráng miệng 02</h3>
+                    <p class="price">68,000 đ</p>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Dots -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <div class="container1">
+        <div class="burger-slide">
+            <h2 class="burger-title">Giá trị của chúng tôi</h2>
+            <h1 class="burger-heading">THƯỞNG THỨC BURGER CỦA CHÚNG TÔI</h1>
+
+            <div class="burger-content">
+                <!-- Bên trái -->
+                <div class="burger-info left">
+                    <h3>THỊT BÒ</h3>
+                    <p>Donec sit amet posuere ipsum. Mauris rutrum sagittis sapien</p>
+                    <h3>BÁNH MÌ</h3>
+                    <p>Donec sit amet posuere ipsum. Mauris rutrum sagittis sapien</p>
+                </div>
+
+                <!-- Hình ảnh trung tâm -->
+                <div class="burger-image">
+                    <img src="burger-home-3-4959.png" alt="Burger" />
+                </div>
+
+                <!-- Bên phải -->
+                <div class="burger-info right">
+                    <h3>CÁC LOẠI RAU</h3>
+                    <p>Donec sit amet posuere ipsum. Mauris rutrum sagittis sapien</p>
+                    <h3>CAY</h3>
+                    <p>Donec sit amet posuere ipsum. Mauris rutrum sagittis sapien</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--3 HINH-->
+    <div class="container">
+        <!-- Card 1: Burger -->
+        <div class="card burger">
+            <h3>BURGER</h3>
+            <p>Giảm giá 20%<br>trong tuần này</p>
+            <a href="#" class="order-link">Đặt hàng ngay</a>
+        </div>
+
+        <!-- Card 2: Gà Chiên -->
+        <div class="card chicken">
+            <h3>GÀ CHIÊN</h3>
+            <p>Giảm giá 25%<br>cho tuần này</p>
+            <a href="#" class="order-link">Đặt món ngay</a>
+        </div>
+
+        <!-- Card 3: Mì Ý -->
+        <div class="card pasta">
+            <h3>MÌ Ý</h3>
+            <p>Giảm giá 35%<br>trong tuần này</p>
+            <a href="#" class="order-link">Đặt hàng ngay</a>
+        </div>
+    </div>
+    <!-- sp-->
+    <section class="product-gallery">
+        <h2 class="title"><a title="Sản phẩm mới">Sản phẩm mới</a></h2>
+        <div class="product-container">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <img src="tomchien-1953.jpg" alt="Tôm tẩm bột chiên giòn">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Tôm tẩm bột chiên giòn</h3>
+                <p class="price">150,000 đ</p>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <img src="xt2dj6k-4939.jpg" alt="Tráng miệng 02">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Tráng miệng 02</h3>
+                <p class="price">68,000 đ</p>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <img src="sinh-to-chuoi-bolaven-scaled-4637.jpg" alt="Sinh tố chuối">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Sinh tố chuối</h3>
+                <p class="price">80,000 đ</p>
+            </div>
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <img src="goicuon2-0552.jpg" alt="Bánh cuốn sắn">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Bánh cuốn sắn</h3>
+                <p class="price">78,000 đ</p>
+            </div>
+            <!-- Product Card 5 -->
+            <div class="product-card">
+                <img src="goi3mau-4322.jpg" alt="Đậu hũ non chiên giòn">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Đậu hũ non chiên giòn</h3>
+                <p class="price">75,000 đ</p>
+            </div>
+            <!-- Product Card 6 -->
+            <div class="product-card">
+                <img src="nguvi3-5757.jpg" alt="Bánh cuốn ngũ vị">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Bánh cuốn ngũ vị</h3>
+                <p class="price">56,000 đ</p>
+            </div>
+            <!-- Product Card 7 -->
+            <div class="product-card">
+                <img src="supcom-3322.jpg" alt="Súp cốm">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Súp cốm</h3>
+                <p class="price">90,000 đ</p>
+            </div>
+            <!-- Product Card 8 -->
+            <div class="product-card">
+                <img src="khoai-tay-chien-pho-mai-2936.jpg" alt="Khoai tây sốt phô mai">
+                <div class="rating-star">
+                    <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+                <h3>Khoai tây sốt phô mai</h3>
+                <p class="price">95,000 đ</p>
+            </div>
+        </div>
+        </div>
+        <div class="btn">
+            <button class="call-to-action2">xem thêm</button>
+        </div>
+    </section>
+    <!--Giaohang-->
+    <div class="container2">
+        <div class="text-section">
+            <h2>Giao hàng</h2>
+            <h1>Nơi Thức Ăn Ngon Kết Hợp Với Dịch Vụ Giao Hàng Nhanh</h1>
+            <p>Hãy đắm mình vào hành trình ẩm thực với thực đơn giới thiệu sự kết hợp hương vị. Các đầu bếp của chúng
+                tôi sử dụng những nguyên liệu tốt nhất để tạo ra những món ăn không chỉ là bữa ăn mà còn là trải nghiệm
+                khó quên.</p>
+
+            <div class="features">
+                <div>
+                    <i class="fa-solid fa-sun"></i>
+                    <span>Giao hàng trong 30 phút</span>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-sun"></i>
+                    <span>Miễn phí vận chuyển $50,00</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sun"></i>
+                    <span>Giao hàng tận nơi</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sun"></i>
+                    <span>Trên đường theo dõi</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="illustration">
+            <img src="delivery-1-2844.png" alt="Scooter Illustration">
+        </div>
+    </div>
+    <!-- đầu bếp -->
+    <div class="DauBep">
+        <div class="main-DauBep1">
+            <div class="item-DauBep">
+                <span>Đầu bếp chuyên nghiệp</span>
+                <div class="mt-20"><a href="#" title="Gặp gỡ đầu bếp chuyên nghiệp của chúng tôi">Gặp gỡ đầu bếp
+                        chuyên nghiệp
+                        của chúng tôi</a></div>
+            </div>
+        </div>
+        <div class="main-DauBep">
+            <div class="list-DauBep mr-20">
+                <div><img src="team-2-5-2606.jpg" alt=""></div>
+                <div class="box-title">
+                    <div class="ml-30 danhdau"><span>Đầu bếp cao cấp</span></div>
+                    <div class="ml-30">
+                        <p>Rubina Jenny</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-DauBep mr-20">
+                <div><img src="team-2-3-2719.jpg" alt=""></div>
+                <div class="box-title">
+                    <div class="ml-30 danhdau"><span>Đầu bếp cao cấp</span></div>
+                    <div class="ml-30">
+                        <p>Joseph Carter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-DauBep mr-20">
+                <div><img src="team-2-1-2836.jpg" alt=""></div>
+                <div class="box-title">
+                    <div class="ml-30 danhdau"><span>Đầu bếp cao cấp</span></div>
+                    <div class="ml-30">
+                        <p>Njelina Rosee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-DauBep ">
+                <div><img src="team-2-5-2606.jpg" alt=""></div>
+                <div class="box-title">
+                    <div class="ml-30 danhdau"><span>Đầu bếp cao cấp</span></div>
+                    <div class="ml-30">
+                        <p>Mary Jenica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Review -->
+    <div class="review">
+        <div class="main-review">
+            <h4>Lời chứng thực</h4>
+            <h2>Khách hàng đã nói gì ?</h2>
+            <div class="avatar">
+                <img src="7-4721.jpg" alt="">
+                <div>
+                    <p>John Deo</p>
+                    <span>Gần đây</span>
+                </div>
+            </div>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="BinhLuan">
+                <p><i>"Tôi thực sự bị cuốn hút. Tôi cũng muốn cảm ơn toàn thể nhân <br> viên của bạn. Thật sự tuyệt
+                        vời."</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- giao hàng -->
+    <div class="DatBan">
+        <div class="DatBan1">
+            <div class="main-DatBan">
+                <div>
+                    <form class="form-1" action="">
+                        <div>
+                            <h2>Đặt bàn</h2>
+                        </div>
+                        <div class="input-main"><input placeholder="Họ và tên" type="text"></div>
+                        <div class="input-main"><input placeholder="nn/mm/yyyy" type="text"></div>
+                        <div class="input-main"><input placeholder="Số điện thoại" type="text"></div>
+                        <div class="input-main"><input class="noiDung" placeholder="Nội dung" type="text"></div>
+                    </form>
+                </div>
+                <div class="btn1">
+                    <button>Đặt chỗ ngay</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
