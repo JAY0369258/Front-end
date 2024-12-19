@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(R.jpg);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-section {
+  width: 50%;
+}
+
+h1 {
+  color: #007bff;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox label {
+  margin-left: 5px;
+}
+
+.checkbox a {
+  color: #007bff;
+  text-decoration: none;
+}
+website-link {
+  color: #007bff;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #f8b400;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+
+.image-section {
+  width: 100%;
+}
+
+.image-section img {
+  max-width: 100%;
+}

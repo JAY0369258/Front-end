@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .flex-container {
+            display: block;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+        .flex-container>* {
+            padding: 15px;
+            -webkit-flex: 1 100%;
+            flex: 1 100%;
+        }
+
+        .article {
+            text-align: left;
+        }
+
+        header {
+            background: black;
+            color: white;
+        }
+
+        footer {
+            background: #aaa;
+            color: white;
+        }
+
+        .nav {
+            background: #eee;
+        }
+
+
+        .nav {
+            text-align: left;
+            -webkit-flex: 1 auto;
+            flex: 1 auto;
+            -webkit-order: 1;
+            order: 1;
+        }
+
+        .article {
+            -webkit-flex: 5 0px;
+            flex: 5 0px;
+            -webkit-order: 2;
+            order: 2;
+        }
+
+        footer {
+            color: red;
+            order: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <header>
+            <h1>123456</h1>
+        </header>
+
+        <div class="nav">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam rem qui quas earum at, optio,
+                quod, similique voluptas quaerat labore aperiam excepturi tempore officiis. Unde omnis odio itaque ex.
+            </p>
+        </div>
+
+        <div class="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate beatae sed laborum qui,
+                omnis debitis doloremque explicabo quasi? Architecto necessitatibus culpa facere explicabo laboriosam
+                maxime consectetur reprehenderit quos et!</p>
+        </div>
+        <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eos, assumenda voluptas dicta ab odio
+            quo saepe doloribus aut ipsa facilis rerum tenetur deleniti officia ullam numquam nemo fuga non!</footer>
+    </div>
+</body>
+
+</html>
